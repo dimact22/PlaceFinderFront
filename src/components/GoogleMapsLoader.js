@@ -18,7 +18,7 @@ const loadGoogleMapsApi = (callback) => {
 
   // Создаем URL для загрузки Google Maps API с учетом текущего языка
   const script = document.createElement('script');
-  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyD4kbpTHuPM7rJ2KEDJmQIYgtnIbOyWiC4&libraries=places&language=${currentLanguage}`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=...&libraries=places&language=${currentLanguage}`;
   script.async = true;
   script.onload = () => {
     googleMapsLoaded = true;
