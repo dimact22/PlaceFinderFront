@@ -1,0 +1,147 @@
+.noScroll {
+    overflow: hidden;
+    height: 100vh; 
+    width: 100vw;  
+    margin: 0;
+}
+
+.searchContainer {
+    background-image: url('../../../public/Munich_photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.searchGroup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    box-sizing: border-box;
+    border-right: none;
+}
+
+.searchInput:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    transition: background-color 0.3s;
+    margin-left: -1px;
+}
+
+.searchButton:hover {
+    background-color: #0056b3;
+}
+
+.filterRadius {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 40%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.filters input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.radiusSelector {
+    width: 60%;
+}
+
+.radiusLabel {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.radiusSelector select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.autocompleteSuggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1000;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.autocompleteSuggestions div {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.autocompleteSuggestions div:hover {
+    background-color: #f0f0f0;
+}
+
+.errorMessage {
+    color: red;
+}

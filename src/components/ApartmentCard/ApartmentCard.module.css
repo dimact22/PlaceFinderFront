@@ -1,0 +1,28 @@
+.apartmentCard {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iconsContainer {
+    display: flex;
+    gap: 16px; /* Отступ между группами иконка + время */
+    margin-top: 10px;
+}
+
+.iconWithDistance {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px; /* Отступ между иконкой и текстом времени */
+}

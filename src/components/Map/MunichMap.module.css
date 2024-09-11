@@ -1,0 +1,18 @@
+.mapWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 75vh;
+  box-sizing: border-box;
+  
+}
+
+.map {
+  width: 90%;   /* Ширина карты */
+  height: 90%;  /* Высота карты */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Легкая тень для карты */
+  border-radius: 10px; /* Скругленные углы */
+}
+  
+  

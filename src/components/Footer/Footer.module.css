@@ -1,0 +1,20 @@
+.footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 100px;
+  position: fixed; /* Фиксируем футер внизу */
+  bottom: 0; /* Располагаем футер на нижнем краю страницы */
+  width: 100%; /* Футер занимает всю ширину экрана */
+  z-index: 1000; /* Задаем высокий z-index, чтобы футер был поверх другого контента */
+}
+
+.socialLinks a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}

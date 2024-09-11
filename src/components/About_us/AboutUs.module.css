@@ -1,0 +1,58 @@
+.container {
+    flex: 1;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  /* Стиль для заголовка страницы */
+  .header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  /* Разделы миссии и информации о проекте */
+  .mission, .team, .contact {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission h2, .team h2, .contact h2 {
+    color: #0066cc;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .mission p, .team p, .contact p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Стиль для контактной информации */
+  .contact p {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .contact strong {
+    font-weight: bold;
+  }
