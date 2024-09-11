@@ -22,7 +22,7 @@ const ApartmentCard = ({ address, apartment, onClick }) => {
             if (!window.google || !window.google.maps) {
                 const currentLanguage = i18n.language || 'de';
                 const script = document.createElement('script');
-                script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyD4kbpTHuPM7rJ2KEDJmQIYgtnIbOyWiC4&language=${currentLanguage}`;
+                script.src = `https://maps.googleapis.com/maps/api/js?key=...&language=${currentLanguage}`;
                 script.async = true;
                 script.defer = true;
                 script.onload = () => {
