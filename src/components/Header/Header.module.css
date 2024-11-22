@@ -1,0 +1,123 @@
+
+.header {
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    background-color: #FDFFDA;
+    
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    height: 60px;
+    
+}
+
+.nav {
+    margin-right: 12vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav ul {
+    display: flex;
+    
+    list-style: none;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+}
+
+.nav ul li {
+    margin: 0 15px;
+    
+    font-family: "Nunito Sans";
+    
+    font-size: 20px;
+    
+    font-style: normal;
+    
+    font-weight: 400;
+    
+    line-height: normal;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    
+    color: #333;
+    
+    font-weight: bold;
+    
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons .icon {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: #FFF;
+    color: #1D1B20;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    z-index: 1000;
+    
+}
+
+.dropdownMenu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    
+
+}
+
+.dropdownMenu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+.dropdownMenu ul li {
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.dropdownMenu ul li:hover {
+    background-color: #FDFFDA;
+    
+}
+
+.dropdownMenu ul li.b:hover {
+    background-color: #f17676;
+    
+}
