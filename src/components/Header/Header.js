@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <a href="/"><img src={`${process.env.PUBLIC_URL}/images/Logo.png`} alt="Logo" /></a>
+        <a href="/"><img src={`${process.env.PUBLIC_URL}/images/Logo.png`} alt="Logo for our website" /></a>
       </div>
       <nav className={styles.nav}>
         <ul>
