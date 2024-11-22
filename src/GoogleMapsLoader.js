@@ -14,7 +14,7 @@ const loadGoogleMapsApi = (callback) => {
   // Устанавливаем язык на украинский по умолчанию
   const currentLanguage = 'uk'; 
   const script = document.createElement('script');
-  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAdMtEMFUW2AGkuZ1nyon4T-sLyCFuPwmM&libraries=places&language=${currentLanguage}`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=key&libraries=places&language=${currentLanguage}`;
   script.async = true;
   script.onload = () => {
     googleMapsLoaded = true;
