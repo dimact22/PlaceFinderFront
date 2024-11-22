@@ -78,3 +78,9 @@
 .forgot-password:hover {
   color: #0056b3;
 }
+
+.password-toggle img {
+  width: 100%; 
+  height: auto; 
+  cursor: pointer; 
+}

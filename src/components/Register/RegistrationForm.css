@@ -96,3 +96,9 @@
   margin-right: 15px;
   font-size: 14px;
 }
+
+.password-toggle img {
+  width: 100%; 
+  height: auto; 
+  cursor: pointer; 
+}

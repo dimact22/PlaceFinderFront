@@ -83,7 +83,7 @@ const Login = () => {
       <Header />
       <div className="form-container2center">
         <div className="form-container2">
-          <h2 className="form-title">Вхід</h2>
+          <h1 className="form-title">Вхід</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="email"
